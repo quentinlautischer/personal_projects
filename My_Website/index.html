@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/html">
+<!-- Learnt HTML5 during an nighter before school resumed, email me with any feedback -->
+<head>
+    <title>Quentin Lautischer</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="jquery.snippet.css" />
+    <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    <script type='text/javascript' src='script.js'></script>
+    <img id="bg" src="images/bg.jpg"  alt="">
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img id="quentin_logo" src="images/QuentinLogo.png"> <!-- For Mobile Only -->
+        </div>
+        
+        <div id="nav">
+                <div id="subNav">
+                    <div id="topNav">
+                        <span  id="leftArrow" class="menu" style="cursor: pointer;">PROFILE</span>
+                        <span> • </span>
+                        <span id="upArrow" class="menu" style="cursor: pointer;">SKILLS</span>
+                        <span> • </span>
+                        <span id="downArrow" class="menu" style="cursor: pointer;">PORTFOLIO</span>
+                    </div>
+                    <div id="seperatorNav"></div>
+                    <div id="midNav">
+                        <span>QUENTIN LAUTISCHER</span>
+                    </div>
+                    <div id="botNav">
+                        <a  href="http://www.linkedin.com/pub/quentin-lautischer/6b/bb6/ba1" target="_blank"> <img class="buttons" src="images/linkedin_logo.png" title="LinkedIn"></a>
+                        <a href="https://github.com/quentinlautischer" target="_blank"> <img class="buttons" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSO2SHoBYYiY4YhRJvRCrH_3lGqJmGESa3Ats6DDZ7A6RHeWR6xFA" title="GitHub"></a>
+                        <a href="mailto:lautisch@ualberta.ca"> <img class="buttons" src="images/mail_logo.png" title="Email Me"></a>
+                    </div>
+                </div>
+        </div>
+        
+        <div id="content">
+        
+            <div id="about_Content">
+                <div id="about_scroll">
+                    <p>
+                        I am a highly motivated student currently completing my second year of Computer Software Engineering at the
+                        <a href="http://www.ualberta.ca/">University of Alberta</a>. I take great pride at being able to problem solve, 
+                        especially concepts that are particularly difficult. Although all facets of Computer
+                        Software Engineering interest me, the one that peaks my interest the most is computer/network security. I am an
+                        advocate for team projects as they foster creative thinking, however my tenacity and meticulousness allows
+                        me to take tasks on my own. My passion for Software Engineering has always allowed me to bring a unique
+                        element to the table, and I am eager to harness my abilities and put them to good use.
+                        <img class="lang_logo" src="images/eng_logo.png" >
+                    </p>
+                </div>
+            </div>
+            
+            <div id="skills_Content">
+                <div class="small_page_portion">
+                    <script>
+                        var skill_bar = function(fullbars){
+                            for(i =0; i < fullbars; i++){
+                                document.write("\<div class='bar fullbar'> </div>");
+                            }
+                            for(i = fullbars; i < 10; i++){
+                                document.write("\<div class='bar barempty'> </div>");
+                            }
+                        }
+                    </script>
+                    <h1>Skills</h1>
+                    <div class="bar1">
+                        <img class="lang_logo" class="bar1" src="images/c_logo.png">
+                        <script>skill_bar(10);</script>
+                    </div>
+                    <div class="bar1">
+                        <img class="lang_logo" src="images/matlab_logo.png">
+                        <script>
+                            skill_bar(8);
+                        </script>
+                    </div>
+                    <div class="bar1">
+                        <img class="lang_logo" src="images/python_logo.png">
+                        <script>
+                            skill_bar(5);
+                        </script>
+
+                    </div>
+                    <div class="bar1">
+                        <img class="lang_logo" src="images/javascript_logo.png">
+                        <script>
+                            skill_bar(3);
+                        </script>
+                    </div>
+                </div>
+                <div class="medium_page_portion">
+                    <h1>Work Experience</h1>
+                    <span>
+                        <br>
+                        Alberta Government
+                        <br>
+                        <strong>Network Systems Assistant</strong>
+                    </span>
+                    <ul>
+                         <li>Configured, staged and installed Cisco network switches/access points.</li>
+                         <li>Installed, wired, and managed data closets.</li>
+                         <li>Implemented an inventory system for network stock and storage.</li>
+                         <li>Designed and mapped data wiring floor plans for Casinos.</li>
+                         <li>Exposed to <strong>TCP/IP</strong> and network programming.</li>
+                    </ul>
+
+                </div>
+                <div class="medium_page_portion">
+                    <h1>School Experience</h1>
+                    <span>
+                        <br>
+                        University of Alberta
+                        <br>
+                        <strong>Full-Time Co-op Student</strong>
+                    </span>
+                    <ul>
+                        <li>Formal Systems and Logic (CMPUT 272)</li>
+                        <li>Tangible Computing I (CMPUT 274)</li>
+                        <li>Tangible Computing II (CMPUT 275)</li>
+                        <li>Electrical Circuits I (ECE 202)</li>
+                        <li>Digital Logic Design (ECE 210)</li>
+                        <li>Microprocessors/Assembly (ECE 212)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="projects_Content">
+		<div class="large_page_portion">
+                    <h1> Arduino Game Project</h1>
+                    <span>This project was the implementation of a 2D mini game</span>
+                    <br>
+                    <a href="https://github.com/quentinlautischer/My_Projects/tree/master/Arduino_Game" target="_blank">Code</a>
+                </div>
+                <span>The Following Projects are protected under private Repo's<span>
+                <span>Please feel free to contact me if you would like to explore them<span>
+                <div class="large_page_portion">
+                    <h1> Encryption Project</h1>
+                    <span>This project involved implementing Diffie-Hellman Encryption methods for communications between two Arduinos</span>
+                    <br>
+                    <!--
+                    <a href="https://github.com/quentinlautischer/My_Projects/blob/master/Diffie-Hellman_Encryption/DH_Encryption.cpp" target="_blank">Code</a> -->
+                </div>
+                <div class="large_page_portion">
+                    <h1> Restaurant Finder Project</h1>
+                    <span>This project involved implementing a scrollable map which was displayed to a 128x160px Arduino LCD. Using sorting Algorithms restaurants would be displayed
+                    in order of shortest distance from the selected locations</span>
+                    <br>
+                    <!--
+                    <a href="https://github.com/quentinlautischer/My_Projects/tree/master/Restaurant_Finder" target="_blank">Code</a> -->
+                </div>
+		<div class="large_page_portion">
+                    <h1> Current Project (Graph Theory)</h1>
+                    <span>This project is merging graph theory and the previous Restaurant finder to create something close to Google Maps</span>
+                    <br>
+                    <!--
+                    <a href="https://github.com/quentinlautischer/graph_theory_project" target="_blank">Code</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- Website design & content © copyright 2013-2014 Quentin Lautischer -->
+</html>
